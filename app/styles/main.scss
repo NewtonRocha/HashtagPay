@@ -5,8 +5,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 
 // Importa Fonte Oficial
 @font-face {
-    font-family: 'Smoolthan';
-    src: url('fonts/Smoolthan-Regular.otf') format("truetype");
+  font-family: 'Smoolthan';
+  src: url('fonts/Smoolthan-Regular.otf') format("truetype");
 }
 
 body {
@@ -31,5 +31,21 @@ footer {
 
   .container {
     padding: 25px 15px;
+  }
+}
+
+.login {
+  margin-top: 13%;
+  margin-bottom: 13%;
+
+  .box {
+    background-color: #E7E7E7;
+    border: 2px solid #E3E3E3;
+    padding: 30px;
+    padding-bottom: 35px;
+  }
+
+  .remove-bottom-space {
+    margin-bottom: 2px;
   }
 }
