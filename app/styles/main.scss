@@ -1,0 +1,35 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// Importa Fonte Oficial
+@font-face {
+    font-family: 'Smoolthan';
+    src: url('fonts/Smoolthan-Regular.otf') format("truetype");
+}
+
+body {
+  font-family: 'Smoolthan';
+  background: #F8F8F8;
+}
+
+.navbar-oficial {
+  background-color: #421C52;
+  margin-bottom: 50px;
+}
+
+#logo {
+  width: 100px;
+  margin: 18px 0;
+}
+
+footer {
+  color: #DEDEDE;
+  margin-top: 50px;
+  background-color: #421C52;
+
+  .container {
+    padding: 25px 15px;
+  }
+}
