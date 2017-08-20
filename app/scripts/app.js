@@ -29,6 +29,21 @@ angular
         controller: 'LoginCtrl',
         controllerAs: 'login'
       })
+      .when('/cadastro', {
+        templateUrl: 'views/cadastro.html',
+        controller: 'CadastroCtrl',
+        controllerAs: 'cadastro'
+      })
+      .when('/novaconta', {
+        templateUrl: 'views/novaconta.html',
+        controller: 'NovacontaCtrl',
+        controllerAs: 'novaconta'
+      })
+      .when('/logout', {
+        templateUrl: 'views/logout.html',
+        controller: 'LogoutCtrl',
+        controllerAs: 'logout'
+      })
       .otherwise({
         redirectTo: '/'
       });

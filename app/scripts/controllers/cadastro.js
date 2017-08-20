@@ -2,16 +2,16 @@
 
 /**
  * @ngdoc function
- * @name appApp.controller:LoginCtrl
+ * @name appApp.controller:CadastroCtrl
  * @description
- * # LoginCtrl
+ * # CadastroCtrl
  * Controller of the appApp
  */
- angular.module('appApp')
- .controller('LoginCtrl', ['$window',
+angular.module('appApp')
+ .controller('CadastroCtrl', ['$window',
  	function($window) {
 
- 		var self = this;
+  		var self = this;
 
  		function statusChangeCallback(response) {
  			if (response.status === 'connected') {
@@ -42,12 +42,16 @@
 			});
 
 			FB.Event.subscribe('auth.login', function(){
-				rediretToHome();
+				rediretToCreateAccount();
 			});
 		};
 
 		function rediretToHome() {
 			$window.location.href = '/';
+		}
+
+		function rediretToCreateAccount() {
+			$window.location.href = '#!/novaconta';
 		}
 
 		// Load the SDK asynchronously
@@ -67,5 +71,5 @@
 				"FacebookKey": authResponse['accessToken']
 			}
 		};
-
-}]);
+    
+  }]);

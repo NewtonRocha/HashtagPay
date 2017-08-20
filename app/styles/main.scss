@@ -34,9 +34,14 @@ footer {
   }
 }
 
+.main {
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
 .login {
-  margin-top: 13%;
-  margin-bottom: 13%;
+  margin-top: 8%;
+  margin-bottom: 8%;
 
   .box {
     background-color: #E7E7E7;
@@ -47,5 +52,60 @@ footer {
 
   .remove-bottom-space {
     margin-bottom: 2px;
+  }
+}
+
+.cadastro {
+  margin-top: 8%;
+  margin-bottom: 8%;
+
+  .box {
+    background-color: #E7E7E7;
+    border: 2px solid #E3E3E3;
+    padding: 30px;
+    padding-bottom: 35px;
+  }
+
+  .remove-bottom-space {
+    margin-bottom: 2px;
+  }
+}
+
+.novaConta {
+  margin-top: 12%;
+  margin-bottom: 12%;
+
+  .box {
+    background-color: #E7E7E7;
+    border: 2px solid #E3E3E3;
+    padding: 30px;
+    padding-bottom: 35px;
+  }
+
+  .options {
+    margin-bottom: 10px;
+  }
+
+  form {
+    margin-top: 35px;
+  }
+
+  .form-group {
+    text-align: left;
+
+    span {
+      padding-left: 3px;
+    }
+  }
+
+  .especial {
+    margin-top: 20px;
+    display: inline-flex;
+
+    span {
+      margin-top: 5px;
+      margin-left: -20px;
+      margin-right: 10px;
+    }
   }
 }

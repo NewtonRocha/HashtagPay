@@ -1,0 +1,86 @@
+<div class="novaConta col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+
+	<h2>Dados Cadastrais</h2>
+
+	<div class="box">
+		
+		<div class="options">
+			<label class="col-md-4">Eu sou um: </label>
+			<label class="radio-inline col-md-4">
+				<input type="radio" ng-model="result" ng-value="'cliente'" name="rdoResult"> Cliente
+			</label>
+			<label class="radio-inline col-md-3">
+				<input type="radio" ng-model="result" ng-value="'vendedor'" name="rdoResult">Vendedor
+			</label>
+		</div>
+		
+		<form ng-if="result == 'cliente'">
+			<div class="form-group">
+				<span for="nomeCliente">Nome Completo:</span>
+				<input type="text" class="form-control" id="nomeCliente">
+			</div>
+			<div class="form-group">
+				<span for="cartaoCredito">Número de Cartão de Crédito:</span>
+				<input type="text" class="form-control" id="cartaoCredito">
+			</div>
+
+			<div class="form-group row">
+				<div class="col-sm-4">
+					<span for="cvv">CVV:</span>
+					<input type="text" class="form-control" id="cvv">
+				</div>
+
+				<div class="col-sm-8">
+					<span for="dataExpiração">Data Expiração:</span>
+					<input type="date" class="form-control" id="dataExpiração">
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-primary btn-block">Criar Conta</button>
+		</form>
+
+		<form ng-if="result == 'vendedor'">
+			<div class="form-group">
+				<span for="nomeCliente">Nome Completo:</span>
+				<input type="text" class="form-control" id="nomeCliente">
+			</div>
+
+			<div class="form-group row">
+				<div class="col-sm-7">
+					<span for="numeroDocumento">Número de Documento:</span>
+					<input type="number" class="form-control" id="numeroDocumento">
+				</div>
+				<div class="col-sm-5">
+					<span for="codigoBanco">Código Banco:</span>
+					<input type="number" class="form-control" id="codigoBanco">
+				</div>
+			</div>
+
+			<div class="form-group row">
+				<div class="col-sm-4">
+					<span for="agencia">Agência:</span>
+					<input type="number" class="form-control" id="agencia">
+				</div>
+				<div class="col-sm-2 especial">
+					<span>-</span>
+					<input type="number" class="form-control" id="digitoAgencia">
+				</div>
+
+				<div class="col-sm-4">
+					<span for="conta">Conta:</span>
+					<input type="number" class="form-control" id="conta">
+				</div>
+				<div class="col-sm-2 especial">
+					<span>-</span>
+					<input type="number" class="form-control" id="digitoConta">
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-primary btn-block">Criar Conta</button>
+		</form>
+
+
+		<!--Código do Banco
+		Numero de Documento-->
+	</div>
+</div>
