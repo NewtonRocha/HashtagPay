@@ -39,11 +39,6 @@ angular
         controller: 'NovacontaCtrl',
         controllerAs: 'novaconta'
       })
-      .when('/logout', {
-        templateUrl: 'views/logout.html',
-        controller: 'LogoutCtrl',
-        controllerAs: 'logout'
-      })
       .otherwise({
         redirectTo: '/'
       });

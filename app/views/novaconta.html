@@ -1,4 +1,4 @@
-<div class="novaConta col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
+<div class="novaConta col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center" ng-controller="NovacontaCtrl as $ctrl">
 
 	<h2>Dados Cadastrais</h2>
 
@@ -13,26 +13,27 @@
 				<input type="radio" ng-model="result" ng-value="'vendedor'" name="rdoResult">Vendedor
 			</label>
 		</div>
+
 		
-		<form ng-if="result == 'cliente'">
+		<form ng-if="result == 'cliente'" ng-submit="$ctrl.enviaDados();">
 			<div class="form-group">
 				<span for="nomeCliente">Nome Completo:</span>
-				<input type="text" class="form-control" id="nomeCliente">
+				<input type="text" ng-model="$ctrl.nomeCliente" class="form-control" id="nomeCliente">
 			</div>
 			<div class="form-group">
 				<span for="cartaoCredito">Número de Cartão de Crédito:</span>
-				<input type="text" class="form-control" id="cartaoCredito">
+				<input type="text" ng-model="$ctrl.cartaoCredito" class="form-control" id="cartaoCredito">
 			</div>
 
 			<div class="form-group row">
 				<div class="col-sm-4">
 					<span for="cvv">CVV:</span>
-					<input type="text" class="form-control" id="cvv">
+					<input type="text" ng-model="$ctrl.cvv" class="form-control" id="cvv">
 				</div>
 
 				<div class="col-sm-8">
-					<span for="dataExpiração">Data Expiração:</span>
-					<input type="date" class="form-control" id="dataExpiração">
+					<span for="dataExpiracao">Data Expiração:</span>
+					<input type="date" ng-model="$ctrl.dataExpiracao" class="form-control" id="dataExpiracao">
 				</div>
 			</div>
 

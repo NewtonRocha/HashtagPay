@@ -10,18 +10,30 @@
  angular.module('appApp')
  .controller('NovacontaCtrl', ['$scope', '$http',
  	function ($scope, $http) {
- 		$scope.result = 'pass';
 
- 		/*var getURL = "http://01fdb59a.ngrok.io/api/values";
- 		//getURL = "http://01fdb59a.ngrok.io/api/register/buyer";
- 		//getULR = "http://01fdb59a.ngrok.io/api/register/seller";
+ 		var vm = this;
 
+ 		vm.nomeCliente = "";
+ 		vm.cartaoCredito = "";
+ 		vm.cvv = "";
+ 		vm.dataExpiracao = "";
+ 		
+ 		$scope.result = 'cliente';
 
- 		$http
- 		.get(getURL)
- 		.then(function (response) {
- 			$scope.data = response;
- 			console.log(response);
- 		});*/
-
- 	}]);
+ 		vm.enviaDadosCliente = function() {
+ 			return $http.post("http://550781e5.ngrok.io/api/register/buyer", 
+ 				/*data: {
+ 					Card: {
+ 						HolderName: vm.nomeCliente,
+ 						Number: vm.cartaoCredito,
+ 						Cvv: vm.cvv,
+ 						ExpirationDate: vm.dataExpiracao
+ 					},
+ 					FacebookKey: ,
+ 					FacebookId: ,
+ 				}*/
+ 				).then(function (resp) {
+ 					vm.data = resp;
+ 				});
+ 			}
+ 		}]);
