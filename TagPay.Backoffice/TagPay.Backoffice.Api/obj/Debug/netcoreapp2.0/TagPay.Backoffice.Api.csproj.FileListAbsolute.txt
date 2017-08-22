@@ -1,0 +1,11 @@
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\obj\Debug\netcoreapp2.0\TagPay.Backoffice.Api.csproj.CoreCompileInputs.cache
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\obj\Debug\netcoreapp2.0\TagPay.Backoffice.Api.AssemblyInfoInputs.cache
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\obj\Debug\netcoreapp2.0\TagPay.Backoffice.Api.AssemblyInfo.cs
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\bin\Debug\netcoreapp2.0\TagPay.Backoffice.Api.deps.json
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\bin\Debug\netcoreapp2.0\TagPay.Backoffice.Api.runtimeconfig.json
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\bin\Debug\netcoreapp2.0\TagPay.Backoffice.Api.runtimeconfig.dev.json
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\bin\Debug\netcoreapp2.0\TagPay.Backoffice.Api.dll
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\bin\Debug\netcoreapp2.0\TagPay.Backoffice.Api.pdb
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\obj\Debug\netcoreapp2.0\TagPay.Backoffice.Api.dll
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\obj\Debug\netcoreapp2.0\TagPay.Backoffice.Api.pdb
+C:\Users\newto\Documents\Visual Studio 2017\Projects\TagPay.Backoffice\TagPay.Backoffice.Api\obj\Debug\netcoreapp2.0\TagPay.Backoffice.Api.csprojResolveAssemblyReference.cache
